@@ -1,0 +1,90 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Roboto Font */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+.subtitle {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 1rem 0;
+  color: red;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+}
+.card-dark {
+  border: 1px solid #343a40;
+}
+.card-header,
+.card-footer {
+background-color: rgba(0, 0, 0, 0.05);
+width: 100%;
+padding: 1rem;
+font-weight: 500;
+border-top-left-radius: 0.5rem;
+border-top-right-radius: 0.5rem;
+border-bottom: 1px solid rgba(102, 102, 102, 0.125);
+}
+.card-dark .card-header,
+.card-dark .card-footer {
+  background-color: #343a40;
+  color: white;
+}
+.m-auto {
+  margin: auto;
+}
+.shadow-sm {
+  box-shadow: 0 2px 8px 3px rgba(0, 0, 0, 0.15);
+}
+.mr-2 {
+  margin-right: 2rem;
+}
+.card-footer {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom: none;
+  border-top: 1px solid rgba(102, 102, 102, 0.125);
+}
+.fs-xl {
+  font-size: 2.5rem;
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-danger {
+  color: #dc3545;
+}
+
+
+
